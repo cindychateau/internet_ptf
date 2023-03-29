@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+header > img {
+    width: 80px;
+    position: relative;
+    top: 5px;
+}
+
+header h1 {
+    color: gray;
+}
+
+.blue { /*header > h1 > span*/
+   color: #28659d; 
+}
+
+#title_www {
+    background-color: #28659d;
+    color: white;
+    padding: 15px;
+}
+
+main {
+    background-color: #ebebeb;
+    padding: 20px 10px;
+}
+
+.main_left {
+    width: 250px;
+    display: inline-block;
+}
+
+.red {
+    color: red;
+}
+
+.main_left h4 {
+    margin-bottom: 20px;
+}
+
+.main_left button {
+    width: 200px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#blue_btn {
+    background-color: #28659d;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#orange_btn {
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 80%;
+}
+
+#publicity {
+    background-image: url('../images/ad_background.png');
+    padding: 20px 10px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#publicity > img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* #publicity h3 {
+    color: white;
+    text-align: center;
+} */
+
+#publicity button {
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.main_right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dns {
+    color: #28659d;
+}
+
+.dns img {
+    width: 20px;
+}
